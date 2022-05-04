@@ -8,8 +8,8 @@ resource "yandex_mdb_postgresql_cluster" "foo" {
   config {
     version = 12 //version of the cluster
     resources {
-      resource_preset_id = "s2.micro" //resource_preset_id - types are in official documentation
-      disk_type_id       = "network-ssd" //disk_type_id - types are in official documentation
+      resource_preset_id = "s2.micro" //resource_preset_id - types are in the official documentation
+      disk_type_id       = "network-ssd" //disk_type_id - types are in the official documentation
       disk_size          = 16 //disk size
     }
   }
