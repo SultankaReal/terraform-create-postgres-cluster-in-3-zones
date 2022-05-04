@@ -1,4 +1,5 @@
 # Create PostgreSQL Cluster with hosts in 3 zones
+# Link to terraform documentation - https://registry.tfpla.net/providers/yandex-cloud/yandex/latest/docs/resources/mdb_postgresql_cluster
 
 resource "yandex_mdb_postgresql_cluster" "foo" {
   name        = "new-cluster1994"
